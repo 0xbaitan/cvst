@@ -3,11 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.23.0"
+  "packageManager": "pnpm@10.23.0",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^25.1.0",
+    "typescript": "^5.9.3",
+    "zod": "^4.3.6",
+    "zod-to-json-schema": "^3.25.1",
+    "zx": "^8.8.5"
+  },
+  "dependencies": {
+    "color-string": "^2.1.4"
+  }
 }

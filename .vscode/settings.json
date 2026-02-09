@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "*.pdf": "pdf"
+  },
+
+  "markdown.styles": ["markdown.css"],
+  "makefile.configureOnOpen": false,
+  "yaml.schemas": {
+    "file:///home/hexbaitan/Projects/cvst/compiled/standard-resume.json": "**/*.resume.yaml"
+  },
+  "tinymist.lint.enabled": true
+}
